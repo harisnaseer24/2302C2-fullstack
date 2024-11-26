@@ -18,6 +18,11 @@
                     <td>{{event.eventType.type}}</td>
                     <td>{{event.date}}</td>
                     <td>{{event.noOfGuests}}</td>
+                    <td>
+                      <a [routerLink]="['/editEvent',event.id]">Edit </a>|
+                      <a >Delete </a>
+
+                    </td>
                   </tr>
             }
         
